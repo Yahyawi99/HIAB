@@ -27,9 +27,10 @@ const Services = () => {
             Business Plans
           </h3>
           <p className={`${servicesStyles.serviceDesc} hide`}>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis
-            voluptates veritatis sit minima debitis adipisci necessitatibus,
-            magnam.
+            In an era of disruption, strategy is more important than ever. We
+            offer creative solutions that have helped thousands of companies
+            across all geographies and sectors develop and execute winning
+            strategies
           </p>
         </div>
 
@@ -46,9 +47,11 @@ const Services = () => {
             Accounting Services
           </h3>
           <p className={`${servicesStyles.serviceDesc} hide`}>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis
-            voluptates veritatis sit minima debitis adipisci necessitatibus,
-            magnam.
+            Businesses rely on well-organized and accurate financial records in
+            order to maintain profitability and ensure that operations will run
+            more efficiently on a daily basis. Our Group helps your business get
+            closer to these goals with accurate record keeping and support on
+            financial issues
           </p>
         </div>
 
@@ -65,9 +68,9 @@ const Services = () => {
             Finance Optimization
           </h3>
           <p className={`${servicesStyles.serviceDesc} hide`}>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis
-            voluptates veritatis sit minima debitis adipisci necessitatibus,
-            magnam.
+            Combining industry, category, and functional expertise, Hiab’s
+            Finance Transformation team empowers the CFO and the entire Finance
+            team
           </p>
         </div>
       </section>
