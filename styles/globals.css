@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+:root {
+  --clr-0: #FFF;
+  --clr-1: #E9FAE3;
+  --clr-2: #006494;
+  --clr-3: #4A8FE7;
+  --clr-4: #030027;
+  --clr-5: #009F93;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--clr-0);
+}
+
+body {
+  font-family: 'League Spartan', sans-serif;
+}
+
+
+/* ********** */
+/* Animations */
+/* ********** */
+/* Slide */
+.intro .slidein {
+  opacity: 1;
+  transform: translateX(0px);
+  transition: .25s;
+}
+
+/* scroll effect */
+.hide {
+  opacity: 0;
+  transform: translateY(75px);
+}

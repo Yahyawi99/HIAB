@@ -1,0 +1,88 @@
+.intro {
+    height: 100vh;
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, .5),
+            rgba(0, 0, 0, 0)), url("/images/intro 1.jpg") center/cover no-repeat fixed;
+    color: var(--clr-0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 0px 0px 75px;
+}
+
+.intro>h1 {
+    font-size: 3.5rem;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: 0.75s;
+}
+
+.titleTwo span {
+    color: var(--clr-2);
+    text-decoration: 8px underline;
+}
+
+.intro>p {
+    letter-spacing: .5px;
+    font-weight: 500;
+    opacity: .0;
+    transform: translateX(-100%);
+    transition: 0.75s;
+    transition-delay: .5s;
+}
+
+.paragraphOne {
+    margin: 20px 0px 2px 0px;
+}
+
+.learnBtn {
+    background-color: var(--clr-2);
+    color: var(--clr-0);
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 700;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: .25s;
+    padding: 12px 20px;
+    margin: 25px 0px 0px 0px;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: 0.75s;
+    transition-delay: 1.25s;
+}
+
+.learnBtn:hover {
+    background-color: transparent;
+    color: var(--clr-2);
+    border: 2px solid var(--clr-2);
+}
+
+/* Slide */
+.intro .slidein {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+/* *********** */
+/* Media query */
+@media screen and (max-width:600px) {
+    .intro {
+        background: linear-gradient(to bottom,
+                rgba(0, 0, 0, .5),
+                rgba(0, 0, 0, .25)), url("/images/intro 1.jpg") center/cover no-repeat fixed;
+        align-items: center;
+        text-align: center;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .intro>h1 {
+        font-size: 2.75rem;
+    }
+
+    .paragraphOne {
+        margin: 30px 0px 2px 0px;
+    }
+}

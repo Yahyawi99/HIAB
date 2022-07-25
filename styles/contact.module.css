@@ -1,0 +1,158 @@
+.contact {
+    padding: 50px 0px 50px 0px;
+    margin-bottom: 25px;
+}
+
+.title {
+    color: var(--clr-2);
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 500;
+    transition: 1s;
+    transition-delay: .25s;
+    margin: 0px 0px 15px 0px;
+}
+
+.subTitle {
+    font-size: 2.75rem;
+    font-weight: 400;
+    transition: 1s;
+    transition-delay: .25s;
+    margin: 0px 0px 25px 0px;
+}
+
+.info>p {
+    transition: 1s;
+    transition-delay: .25s;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(100px, 500px));
+    justify-content: center;
+    gap: 50px;
+    padding: 75px 25px 0px 25px;
+}
+
+/* FORM */
+.form {
+    transition: 1s;
+    transition-delay: .25s;
+}
+
+.form>div {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 50px 0px;
+}
+
+.form>div:nth-child(3) {
+    margin: 0px 0px 25px 0px;
+}
+
+.form>div>label {
+    color: grey;
+    margin: 0px 0px 5px 0px;
+}
+
+.form input {
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid var(--clr-4);
+    font-size: 1.1rem;
+    font-family: inherit;
+    outline: none;
+}
+
+.form textarea {
+    resize: none;
+    border: none;
+    border-bottom: 2px solid var(--clr-4);
+    font-family: inherit;
+    font-size: 1.1rem;
+    outline: none;
+    padding: 5px 0px 0px 0px;
+}
+
+.form>div span {
+    color: red;
+}
+
+.submitBtn {
+    min-width: 107.86px;
+    min-height: 45px;
+    background-color: var(--clr-2);
+    color: var(--clr-0);
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 25px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: .25s;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 35px;
+}
+
+.submitBtn:hover {
+    border: 2px solid var(--clr-2);
+    background-color: transparent;
+    color: var(--clr-2);
+}
+
+/* Error message */
+.form>p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 25px 0px 0px 0px;
+    visibility: hidden;
+}
+
+.form .errorMsg {
+    visibility: visible;
+    color: red;
+}
+
+.form .sentMsg {
+    visibility: visible;
+    color: green;
+    line-height: 22px;
+}
+
+/* Loading styles for form */
+.loadingForm>div {
+    transition: .1s;
+    opacity: .25;
+}
+
+
+/* INFO */
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* ************ */
+/* ************ */
+/* Media query */
+@media screen and (max-width:790px) {
+    .container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 500px));
+        gap: 75px;
+        padding: 50px 10px 0px 10px;
+    }
+
+    .info {
+        text-align: center;
+    }
+
+    .submitBtn {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
