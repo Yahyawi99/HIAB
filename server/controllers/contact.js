@@ -15,8 +15,8 @@ const contactForm = (req, res) => {
   });
 
   const mailData = {
-    from: "nodemaileryassin@gmail.com",
-    to: "a.hamoumi@yahoo.com",
+    from: process.env.From_Email,
+    to: process.env.To_Email,
     subject: `Message from ${req.body.name}`,
     text: req.body.message,
     html: `
