@@ -166,7 +166,7 @@ const Provider = ({ children }) => {
           `Thank you! \n We've received your message and will get back to you within 24 hours.`
         );
       } catch (e) {
-        errorMessage(e.response.statusText);
+        errorMessage("Something went wrong, Please try again.");
       }
     } else {
       errorMessage("All fields must be added.");
