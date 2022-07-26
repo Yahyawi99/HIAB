@@ -25,7 +25,7 @@ app
 
     server.listen(5000, (err) => {
       if (err) throw err;
-      console.log(`Ready on ${PORT}...`);
+      console.log(`Ready on 5000...`);
     });
   })
   .catch((e) => {
