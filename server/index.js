@@ -4,7 +4,7 @@ require("dotenv").config();
 const next = require("next");
 
 const dev = process.env.NODE_ENV !== "production";
-const PORT = process.env.PORT || 3000;
+
 
 const app = next({ dev });
 const handler = app.getRequestHandler();
@@ -24,9 +24,9 @@ app
       return handler(req, res);
     });
 
-    server.listen(PORT, (err) => {
+    server.listen(5000, (err) => {
       if (err) throw err;
-      console.log(`Ready on ${PORT}...`);
+      console.log(`Ready on 5000...`);
     });
   })
   .catch((e) => {
