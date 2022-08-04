@@ -6,6 +6,16 @@ const Document = () => {
       <Head>
         <head>
           <link rel="icon" href="/icons/logo.svg" />
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossOrigin="true"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Niconne&display=swap"
+            rel="stylesheet"
+          />
           <title>HIAB: Perfect place for your business guide</title>
         </head>
       </Head>
