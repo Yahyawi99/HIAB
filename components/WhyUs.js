@@ -5,7 +5,7 @@ import whyStyles from "../styles/whyUs.module.css";
 
 const WhyUs = () => {
   return (
-    <section className={whyStyles.container}>
+    <section className={`${whyStyles.container} hide`}>
       <div>
         <h2>
           Why is <span>HIAB</span> your right partner?{" "}
