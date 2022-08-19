@@ -23,20 +23,22 @@
 /* Services */
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 50px;
     color: var(--clr-4);
     margin: 25px 0px 0px 0px;
 }
 
 .service {
-    width: 30%;
+    width: 95%;
+    max-width: 500px;
 }
 
 .icon {
     max-width: 200px;
-    margin: 0px auto;
     transition: .75s;
     transition-delay: .25s;
+    margin: 0px auto;
 }
 
 
@@ -51,6 +53,7 @@
     transition: .75s;
     transition-delay: .4s;
     line-height: 18px;
+    text-align: justify;
     margin: 0px auto;
 }
 
@@ -75,5 +78,9 @@
     .service {
         width: 95%;
         max-width: 400px;
+    }
+
+    .serviceDesc {
+        text-align: center;
     }
 }

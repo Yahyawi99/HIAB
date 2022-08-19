@@ -29,8 +29,7 @@ const Contact = () => {
           <h2 className={`${contactStyles.subTitle} hide`}>
             Let's work together
           </h2>
-          <p className="hide">500 Terry Francois ST.San Francisco, CA</p>
-          <p className="hide">94158</p>
+          <p className="hide">26 AV MERS SULTAN ETG 1 APPT 3, Casablanca</p>
           <p className="hide">a.hamoumi@hiab.ma</p>
           <p className="hide">Tel : +49 1525 6823 059</p>
         </div>
@@ -42,7 +41,9 @@ const Contact = () => {
           onSubmit={(e) => submitHandler(e)}
         >
           <div className="nameControle">
-            <label htmlFor="Full Name">Full Name</label>
+            <label htmlFor="Full Name">
+              Full Name <span>*</span>
+            </label>
             <input
               type="text"
               name="Full Name"
@@ -62,7 +63,9 @@ const Contact = () => {
             />
           </div>
           <div className="messageControle">
-            <label htmlFor="message">Message</label>
+            <label htmlFor="message">
+              Message <span>*</span>
+            </label>
             <textarea
               name="message"
               cols="30"

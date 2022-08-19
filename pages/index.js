@@ -6,7 +6,7 @@ import Intro from "../components/intro";
 import Quotes from "../components/quote";
 import About from "../components/about";
 import Contact from "../components/contact";
-// import Map from "../components/map";
+import WhyUs from "../components/WhyUs";
 import Footer from "../components/footer";
 // context
 import { useGlobal } from "../context";
@@ -24,9 +24,9 @@ const Home = () => {
 
       <About />
 
-      <Contact />
+      <WhyUs />
 
-      {/* <Map/> */}
+      <Contact />
 
       <Footer />
     </article>

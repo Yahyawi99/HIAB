@@ -8,7 +8,7 @@ const About = () => {
     <article data-name="About" className={aboutStyles.about}>
       <h1 className={`${aboutStyles.aboutTitle} hide`}>About</h1>
 
-      <h2 className={`${aboutStyles.subTitle} hide`}>Who we are</h2>
+      <h2 className={`${aboutStyles.subTitle} hide`}>Who we are ?</h2>
 
       <section className={aboutStyles.SliderContainer}>
         <div className={aboutStyles.show}>

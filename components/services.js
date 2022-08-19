@@ -17,60 +17,49 @@ const Services = () => {
         <div className={servicesStyles.service}>
           <div className={`${servicesStyles.icon} hide`}>
             <Image
-              src="/icons/globeLocations.svg"
+              src="/icons/investing.svg"
               width="100%"
               height="100%"
               layout="responsive"
             />
           </div>
+
           <h3 className={`${servicesStyles.serviceName} hide`}>
-            Business Plans
+            Financing Service
           </h3>
+
           <p className={`${servicesStyles.serviceDesc} hide`}>
-            In an era of disruption, strategy is more important than ever. We
-            offer creative solutions that have helped thousands of companies
-            across all geographies and sectors develop and execute winning
-            strategies
+            Do you want to invest and realize an industrial project? Are you
+            looking for the best funding for your project?
+            <br />
+            HIAB and his partner from Germany with decades of industry
+            skillfulness, financing expertise and trading experience are your
+            right partner who can lead you by the efficient and optimal
+            technical and financial structuring of your project.
           </p>
         </div>
 
         <div className={servicesStyles.service}>
           <div className={`${servicesStyles.icon} hide`}>
             <Image
-              src="/icons/sacOfMoney.svg"
+              src="/icons/sales.svg"
               width="100%"
               height="100%"
               layout="responsive"
             />
           </div>
-          <h3 className={`${servicesStyles.serviceName} hide`}>
-            Accounting Services
-          </h3>
-          <p className={`${servicesStyles.serviceDesc} hide`}>
-            Businesses rely on well-organized and accurate financial records in
-            order to maintain profitability and ensure that operations will run
-            more efficiently on a daily basis. Our Group helps your business get
-            closer to these goals with accurate record keeping and support on
-            financial issues
-          </p>
-        </div>
 
-        <div className={servicesStyles.service}>
-          <div className={`${servicesStyles.icon} hide`}>
-            <Image
-              src="/icons/charts.svg"
-              width="100%"
-              height="100%"
-              layout="responsive"
-            />
-          </div>
           <h3 className={`${servicesStyles.serviceName} hide`}>
-            Finance Optimization
+            Successful sales for machine and plant manufacturing
           </h3>
+
           <p className={`${servicesStyles.serviceDesc} hide`}>
-            Combining industry, category, and functional expertise, Hiab’s
-            Finance Transformation team empowers the CFO and the entire Finance
-            team
+            Due to the numerous market changes as well as competition from
+            low-cost countries, which is becoming stronger not only due to lower
+            prices, but increasingly also due to continuous quality
+            improvements, German machine and plant manufacturers are faced with
+            the challenge of evolution and economic efficiency and thus their
+            long-term success
           </p>
         </div>
       </section>
